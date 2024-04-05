@@ -130,19 +130,20 @@ fun TextHeadingStyle() {
     Column(
         modifier = Modifier
             .fillMaxWidth()
+            .fillMaxHeight()
             .background(Color.Green)
     ) {
         Text(
             text = "Heading 3",
-            style = MaterialTheme.typography.h3
+            style = MaterialTheme.typography.bodyLarge
         )
         Text(
             text = "Heading 4",
-            style = MaterialTheme.typography.h4
+            style = MaterialTheme.typography.bodyMedium
         )
         Text(
             text = "Heading 5",
-            style = MaterialTheme.typography.h5
+            style = MaterialTheme.typography.bodySmall
         )
     }
 }
