@@ -213,14 +213,14 @@ fun TextHeadingStyle() {
                 Text(text = "Button with elevation")
             }*/
 
+            for(i in 1 .. 5){
+                Button(onClick = {}, shape = CutCornerShape(10), border = BorderStroke(2.dp, Color.Cyan)) {
+                    Text(text = "Cut corner shape")
+                }
+            }
+
         }
     }
-
-
-
-
-
-
 
 }
 
